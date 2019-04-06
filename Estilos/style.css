@@ -224,6 +224,7 @@ section {
 /*Animaciones */
 .reac{
 	animation: react infinite 12s;
+	
 
 }
 
@@ -240,11 +241,25 @@ section {
 
 }
 
+/*---------------- */
+
+/* Icon Heart */
+.icon-heart {
+	float: right;
+}
+
+.hear {
+	font-size: 1.2em;
+	cursor:pointer;
+	color:red;
+}
+
+
+/* */
 
 .box-icon ul li a{
 	color:#303843;
 }
-
 .container-biography .box-icon ul li {
 	font-size: 40px;
 }

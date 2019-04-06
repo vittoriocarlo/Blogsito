@@ -12,6 +12,7 @@ function event(){
 				conta = 1;
 				$('nav').animate({
 					left: '-100%'
+					
 				});
 			}
 	});
