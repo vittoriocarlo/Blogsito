@@ -68,11 +68,6 @@ section {
 	font-family: 'Cuprum', sans-serif;
 }
 
-.box-blog {
-	border:1px solid rgba(0,0,0, .2);
-	width: 100%;
-	max-width: 1000px;
-}
 
 .box-blog img {
 	width: inherit;
@@ -84,7 +79,59 @@ section {
 
 	
 }
+.box-blog {
+	border:1px solid rgba(0,0,0, .2);
+	width: 100%;
+	max-width: 1000px;
+	overflow: hidden;
+}
 
+.box-blog .ul-img {
+	display: flex;
+	list-style: none;
+	width: 4000px;
+	animation: slide 20s infinite;
+
+
+}
+
+@keyframes slide{
+	0% {
+		margin-left: 0px;
+		
+	}
+	20% {
+		margin-left: 0px;
+		
+	}
+
+	25% {
+		margin-left: -1000px;
+	}
+
+	45% {
+		margin-left: -1000px;	
+	}
+	50% {
+		margin-left: -2000px;
+	}
+
+	70% {
+		margin-left: -2000px;
+	}
+
+	75% {
+		margin-left: -3000px;
+	}
+
+	100% {
+		margin-left: -3000px;
+	}
+}
+
+.box-blog .ul-img .li-img {
+	width: 100%;
+}
 
 .box-article {
 	padding: 2em;
@@ -252,6 +299,24 @@ section {
 	font-size: 1.2em;
 	cursor:pointer;
 	color:red;
+}
+
+.sprite {
+	width: calc(249px / 4);
+	height: 93px;
+	background: url('../img/mario.png');
+	animation: mario 1s steps(4) infinite;
+
+}
+
+@keyframes mario {
+	from {
+		background-position: 0;
+	}
+
+	to {
+		background-position: -249px;
+	}
 }
 
 
