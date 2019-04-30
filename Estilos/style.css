@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: "Lato", sans-serif;
+	font-family: "Lato", system-ui;
 	overflow-x: hidden;
 }
 
@@ -33,7 +33,7 @@ section {
 	display: block;
 	text-decoration: none;
 	line-height: 4;
-	font-family: 'Cuprum', sans-serif;
+	font-family: 'Cuprum', system-ui;
 	font-size: 1.5em;
 }
 
@@ -51,7 +51,7 @@ section {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	font-family: "Lato", sans-serif;
+	font-family: "Lato", system-ui;
 	/*opacity: .9;*/
 
 }
@@ -59,13 +59,13 @@ section {
 .header-two h1 {
 	font-size: 3em;
 	color:#fff;
-	font-family: 'Cuprum', sans-serif;
+	font-family: 'Cuprum', system-ui;
 }
 
 .header-two p {
 	font-size: 1.5em;
 	color:#fff;
-	font-family: 'Cuprum', sans-serif;
+	font-family: 'Cuprum', system-ui;
 }
 
 
@@ -140,7 +140,7 @@ section {
 .box-article h2 {
 	margin-bottom: 20px;
 	color:#C33050;
-	font-family: 'Cuprum', sans-serif;
+	font-family: 'Cuprum', system-ui;
 	cursor:pointer;
 
 }
@@ -196,7 +196,7 @@ section {
 .box-footer h2 {
 	color:#C33050;
 	margin-bottom: 5px;
-	font-family: 'Cuprum', sans-serif;
+	font-family: 'Cuprum', system-ui;
 }
 
 .box-footer p {
@@ -357,7 +357,7 @@ section {
 .box-icon p {
 	text-align: center;
 	color: #fff;
-	font-family: 'Cuprum', sans-serif;
+	font-family: 'Cuprum', system-ui;
 	font-size: 1em;
 }
 
@@ -415,7 +415,7 @@ section {
 	color:#444343;
 	text-align: center;
 	padding-top: .5em;
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", system-ui;
 }
 
 .image-perfil {
@@ -432,7 +432,7 @@ section {
 	padding-bottom: 5em;
 	color:#9A9A9A;
 	text-align: justify;
-	font-family: "Lato", sans-serif;
+	font-family: "Lato", system-ui;
 	line-height: 1.4;
 }
 .container-biography h3 {
@@ -461,7 +461,7 @@ background:rgba(0,0,0, .5);
 .container-form h2 {
 	padding-bottom: 1em;
 	color:#fff;
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", system-ui;
 	font-size: 2em;
 }
 
@@ -476,14 +476,14 @@ background:rgba(0,0,0, .5);
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	font-size:1em;
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", system-ui;
 	height: 20px;
 	color:#fff;
 }
 
 .container-form textarea {
 	width: calc(100% - 32px);
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", system-ui;
 	font-size: 1em;
 	min-height: 100px;
 	resize: none;
@@ -494,7 +494,7 @@ background:rgba(0,0,0, .5);
 .container-form p {
 	color:#fff;
 	font-size: 1em;
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", system-ui;
 }
 
 .message {
@@ -508,7 +508,7 @@ background:rgba(0,0,0, .5);
 .btn-enviar {
 	font-size: 20px;
 	color:#fff;	
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", system-ui;
 	border-radius: 10px;
 	width: calc(100% - 32px);
 	background: #3B5998;
@@ -572,7 +572,7 @@ background:rgba(0,0,0, .5);
 			/*	padding:20px;*/
 				text-decoration: none;
 				display: block;
-				font-family: "Roboto", sans-serif;
+				font-family: "Roboto", system-ui;
 			}
 			.header ul li a:hover {
 			transition:.3s;
